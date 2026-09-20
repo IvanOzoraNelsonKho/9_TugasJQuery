@@ -8,7 +8,7 @@
 body {
   font-family: Arial, sans-serif;
   background-color: #f9f9f9;
-  color: black;
+  color: #333;
   line-height: 1.5;
   overflow-x: hidden; /* untuk mencegah scroll horizontal */
 }
@@ -17,13 +17,13 @@ body {
 .responsive-img {
   width: 100%;
   max-width: 100%;
-  aspect-ratio: 16/9; 
+  aspect-ratio: 16/9;
   object-fit: cover;
 }
 
 /* navigasi mobile-first dengan Flexbox vertikal */
 .navbar {
-  background-color: brown;
+  background-color: #4a2c11;
   color: white;
   padding: 15px;
   display: flex;
