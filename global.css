@@ -8,7 +8,7 @@
 body {
   font-family: Arial, sans-serif;
   background-color: #f9f9f9;
-  color: #333;
+  color: black;
   line-height: 1.5;
   overflow-x: hidden; /* untuk mencegah scroll horizontal */
 }
@@ -23,7 +23,7 @@ body {
 
 /* navigasi mobile-first dengan Flexbox vertikal */
 .navbar {
-  background-color: #4a2c11;
+  background-color: brown;
   color: white;
   padding: 15px;
   display: flex;
@@ -43,31 +43,15 @@ body {
   margin: 0px 10px;
 }
 
-/* banner utama */
-.hero {
-  text-align: center;
-  padding: 40px 0;
-  background-color: #e8d8c8;
-}
-
-.hero h1 {
-  font-size: 1.5rem;
-  color: #3b220c;
-  margin-bottom: 10px;
-}
-
-.hero p {
-  font-size: 0.95rem;
-  margin-bottom: 20px;
-}
-
-/* tombol call-to-action */
-.hero a {
-  display: inline-block;
-  background-color: #4a2c11;
+/* footer bawah */
+.footer {
+  background-color: #222;
   color: white;
-  padding: 8px 16px;
-  border-radius: 5px;
-  text-decoration: none;
-  font-size: 0.9rem;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.85rem;
+}
+
+.footer p {
+  margin-bottom: 5px;
 }
